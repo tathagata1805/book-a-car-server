@@ -11,8 +11,7 @@
 # production
 /build
 
-#environment variables
-/.env
+/vercel.json
 
 # misc
 .DS_Store
