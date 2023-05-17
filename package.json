@@ -8,7 +8,8 @@
   },
   "scripts": {
     "server": "nodemon index.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "vercel-build": "echo vercel"
   },
   "author": "",
   "license": "ISC",
@@ -17,7 +18,6 @@
     "express": "^4.17.1",
     "mongoose": "^6.0.11",
     "nodemon": "^2.0.14",
-    "now": "^21.0.1",
     "stripe": "^8.184.0",
     "uuid": "^8.3.2"
   }
