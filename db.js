@@ -1,9 +1,10 @@
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
+dotenv.config();
 
 function connectDB() {
   mongoose.connect(
-    "mongodb+srv://sathya:sathyapr@cluster0.dkuc0.mongodb.net/sheycars-udemy",
+    process.env.MONGO_URL,
     {
       useUnifiedTopology: true,
       useNewUrlParser: true,
