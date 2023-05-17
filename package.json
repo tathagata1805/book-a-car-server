@@ -8,8 +8,7 @@
   },
   "scripts": {
     "server": "nodemon index.js",
-    "start": "node index.js",
-    "vercel-build": "echo vercel"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
